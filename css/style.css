@@ -12,6 +12,7 @@ header .logo {
 }
 header .searchForm {
     margin-left: 115px;
+    width: 650px;
 }
 header .searchForm .searchText {
     font-family: arial,sans-serif;
@@ -23,17 +24,47 @@ header .searchForm .searchText {
 }
 
 header .searchForm .searchButton {
+
+    width: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
 }
+
 header .searchForm .searchButton span {
     background: url(https://www.google.pl/images/nav_logo195.png) no-repeat -113px -61px;
     color: transparent;
     display: inline-block;
     height: 18px;
-    margin: 0 auto 2px;
+    margin: 4px auto 2px;
     width: 18px;
 
 }
 header .controls {
-    position: absolute;
-    right: 0;
+    float: right;
+}
+header .controls .apps {
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+    background-size: 356px 144px;
+    background-position: -326px -52px;
+    opacity: .55;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 88px;
+}
+.button {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    height: 30px;
+    font-family: arial,sans-serif;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+header .controls .signIn {
+    width: 71px;
+    display: block;
+    float: right;
 }
