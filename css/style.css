@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #f1f1f1;
+    padding: 15px 30px 15px 13px;
+    border-bottom: 1px solid #e5e5e5;
+}
+header .logo {
+    float: left;
+    margin-top: -3px;
+}
+header .searchForm {
+    margin-left: 115px;
+}
+header .searchForm .searchText {
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    padding: 5px 0 3px 7px;
+    width: 578px;
+    display: block;
+    float: left;
+}
+
+header .searchForm .searchButton {
+}
+header .searchForm .searchButton span {
+    background: url(https://www.google.pl/images/nav_logo195.png) no-repeat -113px -61px;
+    color: transparent;
+    display: inline-block;
+    height: 18px;
+    margin: 0 auto 2px;
+    width: 18px;
+
+}
+header .controls {
+    position: absolute;
+    right: 0;
+}
